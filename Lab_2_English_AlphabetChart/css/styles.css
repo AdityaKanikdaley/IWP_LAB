@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.container{
+    margin: 100px, auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table {
+	width: 90%;
+    table-layout: fixed;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th,td {
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+tr {
+    height: 60px;
+}
+th {
+	text-align: center;
+}
+td {
+    text-align: center;
+}
+th:hover {
+    font-size: 3em;
+    color: red;
+}
+td:hover {
+    font-size: 3em;
+    color: chartreuse;
+}

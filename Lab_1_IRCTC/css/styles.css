@@ -1,0 +1,86 @@
+.nav-item{
+    padding-top: 25px;
+    margin-right: 70px;
+    font-size:large;
+    color: black;
+}
+.nav-mainlogo{
+    margin-right: 150px;
+    margin-left: 10px;
+}
+.nav-item a{
+    color: #000;
+}
+.nav-link:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.nav-irctclogo{
+    margin-left: 80px;
+}
+#trainimage{
+    background-image: url("https://www.timeforkids.com/wp-content/uploads/2020/02/feature-cover_-train-k1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.booking-box{
+    background-color: rgb(255, 255, 255);
+    height: 420px;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+.blue-button{
+    width: 345px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    border: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.book-ticket{
+    color: rgb(33, 33, 141);
+    height: 150px;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type=text], input[type=date],select {
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(83, 75, 75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    height: 40px;
+}
+#train-class{
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(83, 75, 75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    height: 43px;
+}
+#search-button{
+    margin-left: 30px;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: rgb(255, 255, 255);
+}
