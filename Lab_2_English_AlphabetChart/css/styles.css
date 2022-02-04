@@ -34,9 +34,13 @@ td {
 }
 th:hover {
     font-size: 3em;
+    z-index:100;
     color: red;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 td:hover {
     font-size: 3em;
-    color: chartreuse;
+    z-index:100;
+    color: greenyellow;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
