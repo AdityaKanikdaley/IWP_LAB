@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIIMS Hospital Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+    <header class="main-header" role="banner">
+        <img src="images/logo.png" alt="Banner Image" />
+    </header>
+
+    <div id="Heading">
+        Registration Form
+        <!-- <p id="Heading"></p> -->
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <label for="fname" style="padding-left: 10px;">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name" style="width: 20%;">
+
+            <label for="lname" style="padding-left: 10px;">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name" style="width: 20%;">
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <label for="mobile" style="padding-left: 10px;">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed" style="width: 20%;">
+
+            <label for="gender" required style="padding-left: 20px;">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" />Male
+            <input type="radio" id="female" name="gender" value="female" />Female
+
+            <label for="dob" style="padding-left: 20px;">DOB:</label>
+            <input type="Date" id="dob" name="dob" style="width: 20%;">
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <p class="address">
+                <label for="address" style="padding-left: 10px;">Address:</label>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </p>
+
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <label for="city" style="padding-left: 10px;">City:</label>
+            <input type="text" id="city" name="city" maxlength="10" style="width: 20%;">
+
+            <label for="state" style="padding-left: 10px;">State:</label>
+            <input type="text" id="state" name="state" style="width: 20%;">
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <label for="email" style="padding-left: 10px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter a valid email address" style="width: 20%;">
+
+            <label for="password" style="padding-left: 10px;">Password:</label>
+            <input type="password" id="password" name="password" maxlength="8" style="width: 20%;">
+        </div>
+
+        <br><br>
+
+        <div class="row" style="margin-left: 680px;">
+            <input type="submit" value="Registered" onclick="SaveStudentDetails()">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
