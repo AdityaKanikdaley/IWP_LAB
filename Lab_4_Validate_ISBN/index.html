@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate ISBN number</title>
+</head>
+
+<body style="text-align: center;
+            font-size: x-large;
+            margin: 100px, auto;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+            background-image: url('https://wallpaperaccess.com/full/124384.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;">
+    <h1 style="text-shadow: 2px 2px #FF0000">
+        ISBN Validator
+    </h1>
+
+    <input type="text" id="isbn" name="ISBN" placeholder="Enter ISBN number:"><br>
+    <input type="submit" value="Validate" onclick="check()" style="border-radius: 5px; 
+                                                                color: white; 
+                                                                background-color: blueviolet;">
+    <p id="output" style="color: black; 
+                         font-size: 34px; 
+                         font-weight: 900; 
+                         background-color: red;
+                         border-radius: 5px;"></p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
