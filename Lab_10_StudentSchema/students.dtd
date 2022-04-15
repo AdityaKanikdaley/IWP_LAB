@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<!ELEMENT students (student_details>+)>
+<!ELEMENT student (name,registration, department, address, phone)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,city,email)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>

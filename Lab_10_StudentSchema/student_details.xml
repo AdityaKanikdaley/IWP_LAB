@@ -1,0 +1,35 @@
+<?xml version = "1.0"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<?xml-stylesheet type="text/css" href= "students.css"?>
+
+<student_details>
+    <student>
+        <name>
+            <firstname> Aditya </firstname>
+            <lastname> Kanikdaley </lastname>
+        </name>
+        <registration> 19BCE10120 </registration>
+        <department> CSE Core </department>
+        <address>
+            <street> Street-3, Durg, Bhilai</street>
+            <city> Chhattisgarh </city>
+            <email> adiK@gmail.com </email>
+        </address>
+        <phone> 1234567890 </phone>
+    </student>
+
+    <student>
+            <name>
+                <firstname> Tejas </firstname>
+                <lastname> Kanikdaley </lastname>
+            </name>
+            <registration> 14XSD23545 </registration>
+            <department> CSE Core </department>
+            <address>
+                <street> Street-4, Katulbod</street>
+                <city> Pune </city>
+                <email> tejasK@gmail.com </email>
+            </address>
+            <phone> 9876543210 </phone>
+        </student>
+</student_details>

@@ -1,0 +1,57 @@
+student {
+    display: block;
+    margin: 15px;
+    color: blue;
+}
+
+name {
+    display: block;
+    margin-top: 30pt;
+    color: red
+}
+
+firstname {
+    font-size: 28pt;
+}
+
+lastname {
+    font-size: 28pt;
+}
+
+address {
+    display: block;
+    color: green
+}
+
+registration {
+    display: block;
+    font-size: 18pt;
+    color: blue
+}
+
+phone {
+    display: block;
+    font-size: 18pt;
+    color: red
+}
+
+street {
+    display: block;
+    font-size: 18pt;
+}
+
+city {
+    display: block;
+    font-size: 18pt;
+}
+
+email {
+    display: block;
+    font-size: 18pt;
+    color: blue
+}
+
+phone {
+    display: block;
+    font-size: 18pt;
+}
